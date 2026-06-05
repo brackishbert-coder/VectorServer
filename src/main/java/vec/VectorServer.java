@@ -3,8 +3,6 @@ import java.io.*;
 import java.net.ServerSocket;
 import java.net.Socket;
 import java.util.ArrayList;
-import java.util.Vector;
-
 import vectorization.vector;
 
 public class VectorServer implements Runnable  {

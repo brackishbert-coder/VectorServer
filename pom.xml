@@ -16,13 +16,8 @@
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   	<dependency>
-  		<groupId>the</groupId>
-  		<artifactId>test4</artifactId>
-  		<version>0.0.1-SNAPSHOT</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>BoardTemplate</groupId>
-  		<artifactId>BoardTemplate</artifactId>
+  		<groupId>ChessCommon</groupId>
+  		<artifactId>ChessCommon</artifactId>
   		<version>0.0.1-SNAPSHOT</version>
   	</dependency>
   </dependencies>

@@ -5,11 +5,9 @@ import java.net.*;
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
 
-import game.BoardMain;
 import game.BoardUtils;
 import game.VectorMoveValidator;
-import test4.LegalMoveLibrary;
-import test4.TileListener;
+import game.LegalMoveLibrary;
 
 public class VectorClientServerDummy {
 
