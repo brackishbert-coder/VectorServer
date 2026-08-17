@@ -11,7 +11,7 @@ import java.net.Socket;
 public class DummyTurnListener implements Runnable {
 
     private static final int PORT = 5023;
-    private volatile boolean isWhiteTurn = false;
+    private volatile boolean isWhiteTurn = true;  // white moves first (chess starts on white; was false = black, causing the relay to offer wrong-colour moves until a racy turn handshake)
     private volatile boolean running = true;
 
     @Override
