@@ -129,7 +129,7 @@ public class VectorClientServerDummy {
 
 				} catch (IOException e) {
 					// System.err.println("Removing dead client: " + client);
-					it.remove();
+					clients.remove(client);
 					client.close();
 				}
 			}
